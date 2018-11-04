@@ -45,6 +45,9 @@ display: block
 h2 {
 color: #708090 }
 
+.center_my_text {
+text-align: center;
+}
 
 </style>
 </head>
@@ -70,7 +73,7 @@ at the Rose Center for Earth and Space in New York City.
 
 <div id="tribute-info">
     <h2> <strong> Here's a timeline of Neil deGrasse Tyson:</strong></h2>
-    <p >
+    <p>
     Tyson grew up in the Castle Hill neighborhood of the Bronx, and later in Riverdale.[9] 
     From kindergarten throughout high school, Tyson attended public schools in the Bronx, 
     the Riverdale Kingsbridge Academy (then called "P.S. 141"), and The Bronx High School of Science (1972–1976) 
@@ -92,7 +95,7 @@ at the Rose Center for Earth and Space in New York City.
    </p>
    
    <h3> If you have enough time you can read about this wonderful human being on his 
-   <a href="https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson#Career"> Wikipedia Entry </a> </h3>
+   <a id="tribute-link "href="https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson#Career" target="_blank"> Wikipedia Entry </a> </h3>
   </div>
 
 </div>
