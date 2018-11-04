@@ -14,33 +14,62 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 98%;
 }
+
+#img-div {
+display: block;
+}
+
+#image {
+maxwidth:100%; 
+height:auto;" 
+}
+
+.body_cover {
+font-family: monospace verdana;
+color: #696969;
+}
+
+header {
+background-color: #e5e5e5;
+padding: 15px;
+text-align: center;
+display: block;
+}
+
+#tribute-info {
+display: block
+}
+
+h2 {
+color: #708090 }
 
 
 </style>
 </head>
 
-<body style="font-family:Verdana Monospace;color:#aaaaaa;">
+<body class="body_cover">
+
 <div id="main">
 
-<header style="background-color:#e5e5e5;padding:15px;text-align:center; display: block;">
-<h1 id="title" style="font-size:10vw;"> Neil deGrasse Tyson ~ American Astrophysicist </h1>
-<p style="font-size: 3.5vw"> American Astrophysicist and the Director of the Hayden Planetarium 
+<header>
+<h1 id="title"> Neil deGrasse Tyson ~ American Astrophysicist </h1>
+<p> American Astrophysicist and the Director of the Hayden Planetarium 
 at the Rose Center for Earth and Space in New York City.
 </p>
 </header>
 
-<div id="img-div" style="display: block;">
+<div id="img-div">
 <figure>
   <img id="image" src="https://www.anguillesousroche.com/wp-content/uploads/2016/07/neildegrassetyson.jpg" 
-  alt="A picture of Neil deGrasse Tyson" style="maxwidth:100%; height:auto;" class="center">
+  alt="A picture of Neil deGrasse Tyson" class="center">
   <figcaption id="img-caption">Here you can see Neil deGrasse Tyson immersed in a graphical representation of the universe</figcaption>
 </figure>
 </div>
 
-<div id="tribute-info" style="display: block;">
-    <h2>Here's a timeline of Neil deGrasse Tyson:</h2>
+<div id="tribute-info">
+    <h2> <strong> Here's a timeline of Neil deGrasse Tyson:</strong></h2>
     <p >
     Tyson grew up in the Castle Hill neighborhood of the Bronx, and later in Riverdale.[9] 
     From kindergarten throughout high school, Tyson attended public schools in the Bronx, 
